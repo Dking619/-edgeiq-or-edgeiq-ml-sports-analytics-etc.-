@@ -1,49 +1,48 @@
 # -edgeiq-or-edgeiq-ml-sports-analytics-etc.-
-Real-time sports analytics platform that tracks player performance, generates prop-style insights, and simulates parlay outcomes using live game data and basic statistical
 # EdgeIQ
 
-EdgeIQ is a sports analytics platform that pulls live game data, tracks player performance, and runs simple outcome simulations for player props and matchups.
+EdgeIQ is a beginner-built sports analytics project that pulls game data, tracks player stats, and runs simple simulations to estimate player performance outcomes.
 
-It’s built as a way to explore sports data in a more structured, visual way instead of just box scores or highlights.
+This project was built while learning how to work with APIs, backend development, and basic data modeling. The goal is to turn raw sports data into something visual and interactive.
 
 ---
 
 ## What it does
 
-- Pulls live or recent game data from sports APIs
-- Displays player stats in a clean dashboard
-- Runs basic simulations for player performance ranges
-- Shows hit probability estimates for simple prop-style outcomes
-- Lets you compare players side by side
+- Pulls live or sample sports data from APIs
+- Displays player stats in a simple dashboard
+- Runs basic simulations to estimate player performance ranges
+- Shows simple hit probability estimates for player props
+- Allows basic player comparisons
 
 ---
 
 ## Why I built it
 
-Most sports data is either:
-- too scattered (box scores, articles, highlights)
-- or too locked behind betting apps
+I built EdgeIQ because I’ve always enjoyed watching sports, and I became more interested in how sports data and analytics are used behind the scenes as sports analytics and prediction models continue to grow.
 
-I wanted a simple system where I could take raw stats and turn them into something visual and interactive.
+Instead of just consuming stats or highlights, I wanted to understand how raw game data can be turned into structured insights, and how simple models can estimate player performance in a meaningful way.
+
+This project started as a learning experience in full-stack development, but it also reflects my interest in sports analytics and data-driven decision making.
 
 ---
 
 ## Tech Stack
 
-- Python (data + backend logic)
-- Flask (API layer)
-- JavaScript / React (frontend)
-- Recharts (visualization)
+- Python (backend logic + data handling)
+- Flask (API server)
+- JavaScript / React (frontend UI)
+- Recharts (data visualization)
 - REST APIs (sports data sources)
 
 ---
 
 ## Features (current state)
 
-- Live player stats feed
-- Basic projection/simulation model
+- Live or sample player stats feed
+- Basic simulation model for player outcomes
 - Player comparison view
-- Simple dashboard UI
+- Simple analytics dashboard
 
 ---
 
